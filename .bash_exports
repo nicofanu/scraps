@@ -1,0 +1,9 @@
+# vim:ft=sh
+
+export all="$HOME/.filter_patterns/all.txt"
+export books="$HOME/.filter_patterns/books.txt"
+export documents="$HOME/.filter_patterns/documents.txt"
+export images="$HOME/.filter_patterns/images.txt"
+export videos="$HOME/.filter_patterns/videos.txt"
+export music="$HOME/.filter_patterns/music.txt"
+export text="$HOME/.filter_patterns/text.txt"

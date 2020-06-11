@@ -1,0 +1,8 @@
+\.7z$
+\.cbz$
+\.rar$
+\.tgz$
+\.tar$
+\.tar.gz$
+\.tar.bz2$
+\.zip$

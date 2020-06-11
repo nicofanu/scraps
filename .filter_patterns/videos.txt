@@ -1,0 +1,11 @@
+\.3gp$
+\.avi$
+\.flv$
+\.m4v$
+\.mp4$
+\.mpeg4$
+\.mpeg2$
+\.mpeg$
+\.mpg$
+\.mkv$
+\.ogv$

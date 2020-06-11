@@ -1,0 +1,15 @@
+\.chm$
+\.pdf$
+\.epub$
+\.djvu$
+\.html$
+\.mhtml$
+\.txt$
+\.text$
+\.rtf$
+\.doc$
+\.docx$
+\.odt$
+\.abw$
+\.gnumeric$
+\.xlsx$

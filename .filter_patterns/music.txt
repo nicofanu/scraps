@@ -1,0 +1,7 @@
+\.mp3$
+\.m4a$
+\.wav$
+\.flac$
+\.aac$
+\.ogg$
+\.mp2$
