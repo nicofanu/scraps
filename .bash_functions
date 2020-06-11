@@ -47,29 +47,29 @@ cd+ () {
 }
 
 filter() {
-	# Searches for files in PATH, that match the regexes in PATTERN_FILE,
+    # Searches for files in PATH, that match the regexes in PATTERN_FILE,
     # can refine the search further by supplying non-regex PATTERN
     #
-	# Usage:
-	# filter PATH PATTERN_FILE [ PATTERN ] 
+    # Usage:
+    # filter PATH PATTERN_FILE [ PATTERN ] 
     #
-	# Examples:
-	# filter  /media/Backup $videos "python"               # export videos="~/.filter_patterns/vids.txt"
-	#
-	# The file "~/vids.txt" may contain regular expressions that match most video
+    # Examples:
+    # filter  /media/Backup $videos "python"               # export videos="~/.filter_patterns/vids.txt"
+    #
+    # The file "~/vids.txt" may contain regular expressions that match most video
     # filename extensions (mp4,mkv,avi,etc.)
-	
-	find -L "$1" -type f \
-	| grep -i -f "$2" \
-	| grep -i -F "$3"
+    
+    find -L "$1" -type f \
+    | grep -i -f "$2" \
+    | grep -i -F "$3"
 }
 
 nth() {
-	# Displays the nth line of a file or standard input
-	# Usage: nth NUM [ FILE ]
-    #	
+    # Displays the nth line of a file or standard input
+    # Usage: nth NUM [ FILE ]
+    #   
     # Examples:
     # nth 15 ~/.bashrc | bash                              # execute a single line of a script
 
-	tail -n+$1 $2 | head -n1				               # fastest solution
+    tail -n+$1 $2 | head -n1                               # fastest solution
 }
